@@ -1,0 +1,48 @@
+Задачи на JS
+Задача 1
+function getType(input) {
+  return typeof input;
+}
+
+
+Задча 2
+В консоль выведется a undefined
+Блок a() выведет a
+Функция a() ничего не возвращает, undefined присваивается c
+
+Задание 3
+function sumNumbersOnly() {
+  
+  let total = 0;
+  
+
+  for (let i = 0; i < arguments.length; i++) {
+
+    if (typeof arguments[i] === "number") {
+
+      total += arguments[i];
+    }
+  }
+  
+
+  return total;
+}
+
+
+Задание 4
+function convertArrToObj(arr) {
+  
+  let obj = {};
+  
+
+  for (let i = 0; i < arr.length; i++) {
+ 
+    obj[i] = arr[i];
+  }
+  
+ 
+  return obj;
+}
+
+
+Задание 5
